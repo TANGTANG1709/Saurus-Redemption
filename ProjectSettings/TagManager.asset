@@ -3,16 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - Terrain
-  - 
+  - Weapons
   - 
   - 
   - 
@@ -40,6 +41,15 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackG
+    uniqueID: 3255791139
+    locked: 0
+  - name: MidG
+    uniqueID: 105915207
+    locked: 0
+  - name: ForeG
+    uniqueID: 1366030385
     locked: 0
   m_RenderingLayers:
   - Default
